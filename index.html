@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hng timothy profile</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="profile-container">
+      <h1>Personal Data Info</h1>
+      <div class="personal-info">
+        <h3 class="slackName">Slack Name : Timothy Akobundu</h3>
+        <img
+          src="./img/Tim.jpeg"
+          alt="Timothy Akobundu"
+          data-testid="slackDisplayImage"
+          class="profile-img"
+        />
+        <p data-testid="currentDayOfTheWeek">
+          Day of the weeek : <span id="dayWeek"> </span>
+        </p>
+        <p data-testid="currentUTCTime">
+          UTC Time : <span id="utcTime"> </span>
+        </p>
+        <p data-testid="myTrack">Track : <span id="Track"> Frontend</span></p>
+        <div class="button">
+          <a href="https://github.com/timothy2462/HNG_task1" target="_blank">
+            <button data-testid="githubURL" class="btn">Github</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
